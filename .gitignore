@@ -1,0 +1,5 @@
+data/*.npy
+results/*.png
+__pycache__/
+*.ipynb_checkpoints
+.env
