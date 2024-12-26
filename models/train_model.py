@@ -12,9 +12,10 @@ def create_model():
     return model
 
 # Train and evaluate the model
-def train_and_evaluate(X_train, y_train, X_test, y_test, filename):
+def train_and_evaluate(X_train, y_train, X_test, y_test, filename, epochs=7):
     model = create_model()
-    model.fit(X_train, y_train, epochs=7, validation_data=(X_test, y_test))
+    model.fit(X_train, y_train, epochs=epochs, validation_data=(X_test, y_test))
     model.save(filename)
     test_loss, test_acc = model.evaluate(X_test, y_test)
     return test_acc
+
