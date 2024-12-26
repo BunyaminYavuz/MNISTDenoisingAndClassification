@@ -77,7 +77,7 @@ st.markdown("""
 </style>
 <div class="footer">
     <h4>Developed by <a href="https://www.linkedin.com/in/bunyaminyavuz/" target="_blank">Bunyamin Yavuz</a></h4>
-    <p>GitHub Repository: <a href="https://github.com/BunyaminYavuz/MNISTimageEnhancementAndAccuracyEvaluation" target="_blank">MNIST Noise Reduction Project</a></p>
+    <p>GitHub Repository: <a href="https://github.com/BunyaminYavuz/MNISTDenoisingAndClassification" target="_blank">MNIST Noise Reduction Project</a></p>
     <p>© 2025 Bunyamin Yavuz. All rights reserved.</p>
 </div>
 """, unsafe_allow_html=True)
