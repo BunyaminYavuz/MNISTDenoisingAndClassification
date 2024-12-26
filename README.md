@@ -1,4 +1,4 @@
-# MNIST Image Enhancement and Accuracy Evaluation
+# MNIST Denoising and Classification
 
 This project demonstrates the effects of noise on MNIST digit classification and the improvements achieved using denoising techniques.
 
@@ -93,7 +93,7 @@ Contributions are welcome! Follow these steps to contribute:
 2. **Clone Your Fork**:  
    Clone the forked repository to your local machine:
    ```bash
-   git clone https://github.com/BunyaminYavuz/MNISTimageEnhancementAndAccuracyEvaluation.git
+   git clone https://github.com/BunyaminYavuz/MNISTDenoisingAndClassification.git
    ```
 
 3. **Create a New Branch**:  
